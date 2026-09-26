@@ -56,12 +56,16 @@ FitTrack/
 
 ### 2. Installation
 Clone or navigate to the project directory and run:
+
+repo: git clone https://github.com/gnna-m/fittrack.git
+ cd fittrack/server
+
 ```bash
 npm install
 ```
 
 ### 3. Configuration Setup
-Create a `.env` file in the root directory based on the `.env.example` template:
+Create a `.env` file in the root directory based on this format.
 ```env
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/fittrack
